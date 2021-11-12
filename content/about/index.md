@@ -30,7 +30,7 @@ MBTI属性：INFP
 
 近期写作计划：[写作计划](https://web.banlikanban.com/kanban/618bbf83b79aa10f848da16b/)
 
-长毛象：https://wxw.moe/@feathers
+长毛象：[feathers](https://wxw.moe/@feathers)
 
 ![img](https://i.loli.net/2021/11/13/SK9He1aExLlhbDv.jpg)
 
