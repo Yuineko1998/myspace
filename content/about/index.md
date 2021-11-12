@@ -26,7 +26,13 @@ MBTI属性：INFP
 
 #### **相关链接**
 
-[晋阳霸府存档室](https://mud-buffer-24e.notion.site/5f64788463ba4342a41d8a0540929851)
+历史同人存档：[晋阳霸府存档室](https://mud-buffer-24e.notion.site/5f64788463ba4342a41d8a0540929851)
+
+近期写作计划：[写作计划](https://web.banlikanban.com/kanban/618bbf83b79aa10f848da16b/)
+
+长毛象：https://wxw.moe/@feathers
+
+![img](https://i.loli.net/2021/11/13/SK9He1aExLlhbDv.jpg)
 
 
 
