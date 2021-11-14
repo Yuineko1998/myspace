@@ -1,5 +1,9 @@
 ---
-title: "Test"
-date: 2021-11-14T17:55:32+08:00
-draft: true
+categories = ['Development', 'VIM']
+date = '2012-04-06'
+draft = true
+description = 'spf13-vim is a cross platform distribution of vim plugins and resources for Vim.'
+slug = 'spf13-vim-3-0-release-and-new-website'
+tags = ['.vimrc', 'plugins', 'spf13-vim', 'vim']
+title = 'spf13-vim 3.0 release and new website'
 ---
