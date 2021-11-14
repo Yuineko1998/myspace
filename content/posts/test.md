@@ -1,9 +1,9 @@
----
-categories = ['Development', 'VIM']
-date = '2012-04-06'
++++
+date = '2021-11-12T14:26:00+08:00'
+description = '妈妈，我想做你的爱人，你的亲人，你的族人，你的孩子。'
 draft = true
-description = 'spf13-vim is a cross platform distribution of vim plugins and resources for Vim.'
-slug = 'spf13-vim-3-0-release-and-new-website'
-tags = ['.vimrc', 'plugins', 'spf13-vim', 'vim']
-title = 'spf13-vim 3.0 release and new website'
----
+tags = ['北魏', '历史同人', '拓跋珪']
+title = 'test'
+
++++
+
