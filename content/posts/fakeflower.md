@@ -10,7 +10,7 @@ tags:
 title: 约稿存档|空花
 ---
 
-作者：https://sociale.network/@innocentya
+作者：[@innocentya](https://sociale.network/@innocentya)
 
 
 
