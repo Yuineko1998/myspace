@@ -30,15 +30,9 @@ MBTI属性：INFP
 
 近期写作计划：[写作计划](https://web.banlikanban.com/kanban/618bbf83b79aa10f848da16b/)
 
+### 友情链接
 
+[阿越|小狗咬掉网线](https://myblog1-two.vercel.app/)
 
 ![img](https://i.loli.net/2021/11/13/SK9He1aExLlhbDv.jpg)
-
-
-
-
-
-
-
-
 
