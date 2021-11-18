@@ -20,7 +20,7 @@ theme = "diary"
 
 [params]
 subtitle = "怀抱理想沉下去"
-enableGitalk = False
+# enableGitalk = false
 disqusShortname = "Your disqus short name."
 
 # Twitter Card and Open Graph settings
