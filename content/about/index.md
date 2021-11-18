@@ -8,7 +8,9 @@
 
 MBTI属性：INFP
 
-历史同人爱好者，写作爱好者。感兴趣的时代：五代十国、中晚唐、两晋南北朝。
+历史同人爱好者，写作爱好者，古风歌爱好者。
+
+感兴趣的时代：五代十国、中晚唐、两晋南北朝。
 
 这是第一个自己搭建的博客，很喜欢！希望你也喜欢！^-^
 
@@ -29,6 +31,18 @@ MBTI属性：INFP
 历史同人存档：[晋阳霸府存档室](https://mud-buffer-24e.notion.site/5f64788463ba4342a41d8a0540929851)
 
 近期写作计划：[写作计划](https://web.banlikanban.com/kanban/618bbf83b79aa10f848da16b/)
+
+不怎么使用的一些lofter博客，可供网络stalk：
+
+1.[关中风纪纠察-还在丢文](https://www.lofter.com/blog/featherbones)
+
+2.[喵球都指挥副使-唐末时期同人创作使用](https://www.lofter.com/blog/zhexifu)
+
+3.[郑小双-刚开始搞史同时使用](https://www.lofter.com/blog/featherandbones)
+
+我的pixiv：[搬运不多，可以看看旧图](https://www.pixiv.net/users/54911437)
+
+我的内娱墓碑：[@都督河洛诸猫猫](https://weibo.com/u/7213061045?refer_flag=1005055013_&sudaref=www.google.com)
 
 ### **5.友情链接/Friend**
 
