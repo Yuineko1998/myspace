@@ -53,14 +53,10 @@ url = "/categories"
 name = "合集/Categories"
 weight = 2
 [[menu.main]]
-url = "/tags"
-name = "标签/Tags"
-weight = 3
-[[menu.main]]
 url = "/posts"
 name = "归档/Archive"
-weight = 4
+weight = 3
 [[menu.main]]
 url = "/index.xml"
 name = "订阅/RSS"
-weight = 5
+weight = 4
