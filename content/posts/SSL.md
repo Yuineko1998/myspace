@@ -5,7 +5,7 @@ draft: false
 tags:
 - Hugo
 - SSL证书
-  title: Hugo|给博客安装SSL安全证书
+title: Hugo|给博客安装SSL安全证书
 ---
 
 ## 1.起因
