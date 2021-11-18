@@ -37,6 +37,12 @@ description = "小双的自留地"  # will set 'og:description'
 [taxonomies]
    tag = "tags"
    category = "categories"
+   
+[frontmatter]
+   date = ["date", "publishDate", "lastmod"]
+   lastmod = [":git", "lastmod", "date", "publishDate"]
+   publishDate = ["publishDate", "date"]
+   expiryDate = ["expiryDate"]
 
 [params.utterances]
 repo="your repo"
