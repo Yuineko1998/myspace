@@ -34,11 +34,11 @@ MBTI属性：INFP
 
 不怎么使用的一些lofter博客，可供网络stalk：
 
-1.[关中风纪纠察-还在丢文](https://www.lofter.com/blog/featherbones)
+1.[关中风纪纠察-还在丢文](https://featherbones.lofter.com/)
 
-2.[喵球都指挥副使-唐末时期同人创作使用](https://www.lofter.com/blog/zhexifu)
+2.[喵球都指挥副使-唐末时期同人创作使用](https://zhexifu.lofter.com/)
 
-3.[郑小双-刚开始搞史同时使用](https://www.lofter.com/blog/featherandbones)
+3.[郑小双-刚开始搞史同时使用](https://featherandbones.lofter.com/)
 
 我的pixiv：[搬运不多，可以看看旧图](https://www.pixiv.net/users/54911437)
 
