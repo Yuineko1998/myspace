@@ -1,5 +1,5 @@
 baseURL = "https://yuineko.icu/"
-DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
+DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "直笔东观"
 copyright = "This is a customized copyright."
