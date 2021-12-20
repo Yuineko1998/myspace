@@ -1,7 +1,7 @@
 ---
 title: "我的2021年：列车脱轨以后"
 date: 2021-12-20T18:18:41+08:00
-draft: true
+draft: false
 description: 说来话长，这个清华我不念了！
 categories: 
 -
