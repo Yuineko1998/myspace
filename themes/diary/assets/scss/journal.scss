@@ -1,5 +1,6 @@
 $color-accent: #037BBA;
 //$color-accent: #330000;
+$color-light: #D3D3D3;
 $back-container-background: #fcfcfc;
 $front-container-background: #ffffff;
 
@@ -17,7 +18,7 @@ $nav-title-size: 30px;
 $nav-subtitle-size: 18px;
 $nav-link-size: 20px;
 $nav-footer-size: 12px;
-$post-title-size: 30px;
+$post-title-size: 22px;
 $post-subtitle-size: 14px;
 $post-summary-size: 16px;
 $post-body-size: 16px;
@@ -33,6 +34,7 @@ $color-text: $deep-dark-accent;
   $dark-accent: $color-accent;
   $deep-dark-accent: $color-accent;
   $color-text: $deep-dark-accent;
+  $color-light: $color-light
 }
 
 $single-column-max-width: 1020px;
@@ -293,6 +295,7 @@ a {
       }
     }
     .nav-icon {
+      
       padding: 8px;
     }
     .nav-background {
@@ -551,6 +554,7 @@ a {
         font-family: $mono-font-list;
       }
       .pagination-action-icon {
+        color:#4682B4;
         // margin-right: 4px;
       }
       * {
@@ -646,11 +650,13 @@ a {
             }
 
             .post-item-title-small {
+              
               font-size: $tag-category-title-size;
               margin-bottom: 0;
 
               @media screen and (max-width: $single-column-max-width) {
                 font-size: $single-column-tag-category-title-size;
+                color: $color-light;
               }
             }
 
@@ -823,6 +829,7 @@ a {
             font-size: 16px;
           }
           .material-icons {
+            color: #4682B4;
             vertical-align: middle;
             margin-bottom: 3px;
           }
@@ -863,6 +870,7 @@ a {
           .material-icons {
             vertical-align: middle;
             margin-bottom: 3px;
+            color: #4682B4;
           }
 
           @media screen and (max-width: $single-column-max-width) {
