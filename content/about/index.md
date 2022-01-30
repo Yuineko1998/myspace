@@ -48,7 +48,7 @@ MBTI属性：INFP
 
 ### **5.友情链接/Friend**
 
-[阿越|小狗咬掉网线](https://myblog1-two.vercel.app/)
+[阿越|小狗咬掉网线](https://lion-eta.vercel.app/)
 
 ![img](https://i.loli.net/2021/11/13/SK9He1aExLlhbDv.jpg)
 
