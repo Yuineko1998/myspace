@@ -662,6 +662,7 @@ a {
 
             .post-item-summary {
               font-size: $post-summary-size;
+              color: #A9A9A9;
               line-height: 1.5em;
               margin-bottom: 10px;
               //font-weight:300;
@@ -673,6 +674,7 @@ a {
             }
             .post-item-meta {
               font-size: $post-meta-size;
+              color: #A9A9A9;
 
               @media screen and (max-width: $single-column-max-width) {
                 font-size: $single-column-post-meta-size;
