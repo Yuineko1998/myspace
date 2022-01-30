@@ -652,6 +652,7 @@ a {
             .post-item-title-small {
               
               font-size: $tag-category-title-size;
+              color: #A9A9A9;
               margin-bottom: 0;
 
               @media screen and (max-width: $single-column-max-width) {
@@ -662,6 +663,7 @@ a {
 
             .post-item-summary {
               font-size: $post-summary-size;
+              color: #A9A9A9;
               line-height: 1.5em;
               margin-bottom: 10px;
               //font-weight:300;
@@ -673,6 +675,7 @@ a {
             }
             .post-item-meta {
               font-size: $post-meta-size;
+              color: #A9A9A9;
 
               @media screen and (max-width: $single-column-max-width) {
                 font-size: $single-column-post-meta-size;
@@ -816,6 +819,7 @@ a {
 
         .post-subtitle {
           font-size: $post-subtitle-size;
+          color: #A9A9A9;
           line-height: 1.2em !important;
           width: 80%;
           opacity: 0.6;
@@ -856,8 +860,9 @@ a {
         font-style: normal;
         line-height: 1.5em;
         .post-subtitle {
-          font-size: $post-subtitle-size;
-          width: 80%;
+          font-size: 18px;
+          color: #A9A9A9;
+          width: 60%;
           opacity: 0.6;
           padding: 0px 0 8px 0;
         }
