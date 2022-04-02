@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en-us" x-ms-format-detection="none"><head>
+<title>约稿存档|空花 - 直笔东观</title>
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<meta name="format-detection" content="email=no">
+<meta name="description" content="史梗架空的梦女文学">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="x-dns-prefetch-control" content="off">
+
+
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="约稿存档|空花" />
+<meta property="og:description" content="史梗架空的梦女文学" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yuineko.icu/posts/fakeflower/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-15T14:26:00+08:00" />
+<meta property="article:modified_time" content="2021-11-18T14:26:00+08:00" /><meta property="og:site_name" content="直笔东观" />
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="约稿存档|空花"/>
+<meta name="twitter:description" content="史梗架空的梦女文学"/>
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css" />
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://yuineko.icu/scss/journal.min.5915342dd5714c3691652d387f9cba784b91e9d996735453fb26ab49e07b0fca.css" integrity="sha256-WRU0LdVxTDaRZS04f5y6eEuR6dmWc1RT&#43;yarSeB7D8o=" media="screen" />
+
+
+
+<link rel="stylesheet" href="https://yuineko.icu/scss/dark-mode.min.40e7382c677f4cff6c5f4d5ef90bb58176fa71bcd8d3d37f48f037ffc9ab9e6d.css" integrity="sha256-QOc4LGd/TP9sX01e&#43;Qu1gXb6cbzY09N/SPA3/8mrnm0=" media="screen" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap" />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap" />
+</noscript>
+
+
+
+
+  
+    <script src="/js/toc.js"></script>
+  
+
+
+
+
+  
+
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js"></script>
+  
+
+  
+
+  
+</head>
+<body>
+
+<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://yuineko.icu/">
+    
+        <div class="nav-title">
+            直笔东观
+        </div>
+        
+        <div class="nav-subtitle">
+            怀抱理想沉下去
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于我/About
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                合集/Categories
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                归档/Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                订阅/RSS
+            </a>
+            
+        
+    </div>
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/loikein/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net" rel="nofollow noopener noreferrer">Rise</a> &amp; <a href="https://loikein.one" rel="nofollow noopener noreferrer me">loikein</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	This is a customized copyright.
+	
+
+    </div>
+    
+</div>
+<div ref="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a class="pagination-action" v-on:click="toggleDarkMode">
+            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于我/About
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    合集/Categories
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    归档/Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    订阅/RSS
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="https://yuineko.icu/">
+            直笔东观
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
+            <i class="material-icons" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://yuineko.icu/">
+        <div class="single-column-header-title">直笔东观</div>
+        
+        <div class="single-column-header-subtitle">怀抱理想沉下去</div>
+        
+
+    </a>
+</div>
+
+
+<main id="content">
+<div ref="streamContainer" class="stream-container">
+<div class="post-list-container post-list-container-shadow">
+<div class="post">
+
+
+
+
+<div class="post-head-wrapper-text-only"
+    
+>
+    <div class="post-title">
+        <h1 class="post-title-main">约稿存档|空花</h1><div class="post-subtitle">史梗架空的梦女文学</div><div class="post-meta"><div class="post-time">发布时间：<time itemprop="datePublished">2021-11-15 14:26</time><br>最后修改：<time itemprop="dateModified">2021-11-18 14:26</time></div>&emsp;
+            <div class="post-cats">
+            <i class="material-icons" style="">folder</i>&nbsp;<a href="/categories/%E6%95%95%E5%8B%92%E5%B7%9D">敕勒川</a>&nbsp;</div>&emsp;
+            <div class="post-tags">
+            <i class="material-icons" style="">label</i>&nbsp;<a href="/tags/%E7%BA%A6%E7%A8%BF%E5%AD%98%E6%A1%A3">约稿存档</a>&nbsp;<a href="/tags/%E5%8F%B2%E6%A2%97%E6%9E%B6%E7%A9%BA">史梗架空</a>&nbsp;<a href="/tags/%E4%B8%9C%E9%AD%8F">东魏</a>&nbsp;<a href="/tags/%E6%A2%A6%E5%A5%B3">梦女</a>&nbsp;</div><i class="material-icons" style="">schedule</i>
+                
+
+                
+                
+
+                
+                25 min
+                
+                31 s.</div>
+        
+    </div>
+    
+</div>
+
+
+<div class="post-body-wrapper">
+    
+    <div class="post-body" v-pre>
+    
+    
+
+    <p>作者：<a href="https://sociale.network/@innocentya">@innocentya</a></p>
+<p>道武定礼，冬至祭天，夏至祭地；及至孝文，天子弃袴褶戎服，衮冕剑舄。这是朝中的河北人教导我的。他们如此怕我行差踏错，以至于日夜谆谆，然而他们恐惧的并非昊天的恚怒，而是我高王的失望。</p>
+<p>但那是他们的忧虑，他们的恐惧，是他们逼丞相与尔朱家决裂，是他们恐惧六镇的流民，是他们需要丞相荡清宇内，这一切忧惧，不属于我。</p>
+<p>在丞相将我托举上黑毡时，我就知道，我高王的心中怀抱着比代北的高天更高的天，比阴山的草原更阔的地。因为我是坐在黑毡上哭泣的可汗，还有比这更亵渎、更致命、更残酷的错误吗？我是元氏血胤，孝文苗裔，拓拔家的女儿，此生连可敦尚且不得做，何况可汗？</p>
+<p>我的惶惑像已经射出箭的弓弦，颤抖不停，牙齿相磕发出咯咯的声响，那声响如此大，甚至盖过了玉辂车的轱辘。</p>
+<p> </p>
+<p>“丞相！”我掀开熊皮障泥，洛阳的熏香和暖风便散出去，我颤抖的喑哑的尖叫也散出去，消弭进尘土，我伸出手，向我的高王。</p>
+<p>但他竟听到了，于是回过头，勒住马，俯下身子，“陛下。”</p>
+<p>没有一丝风尘染上他的脸，我作证，他的美丽和作健如辟尘的犀角，如照破山河的随珠。</p>
+<p>“不行，我是……天神看着呢。”我嗫嚅道。</p>
+<p>“我也并非十姓贵族。”</p>
+<p>我抓住了他的袖口，却说不出话。</p>
+<p>“陛下，是我要把您托起来，便是有罪，又如何会归咎于您？”他的声音如此温和，以至于我几乎要信了。</p>
+<p>“非如此不可？”</p>
+<p>他没有再回答，只是口称僭越万死，然后举手擦掉了我将落的泪水。这是第一次有人用指腹为我揩泪，我们洛阳人从来都是用丝绢的帕，于是我知道了手指的温度，也知道了丝绢的冰冷。</p>
+<p>而后，他果然如托起星星和月亮一样托起了我，上见苍穹，俯见黑毡，我便做了皇魏的可汗，骎骎日上，直到今天。</p>
+<p> </p>
+<p> </p>
+<p>今天，托举着我的人便要回来了，带着胜利、荣光、清平和一切。我和高澄一起早到了圆丘，等着丞相，日头渐渐高了，我听到有人雀鸟一样低语，丞相何等怠慢陛下啊，霍光、曹操、恒温……一些我知道或不知道的名字种子一样撒在地上，又被人叽叽喳喳地拾起。高澄在我身边冷笑出来，我知道不好，但尚不及出言，马蹄已经震动大地，高王一如鹞子穿过鸟雀那样，左右劈开两道高冠博带的人波。</p>
+<p>我站起来，在礼仪许可的范围内，尽可能地往前蹭着。但他来得多快啊，疾风一样，更快过烟尘，却又骤止，瞬息跪于我面前，礼仪全备。</p>
+<p>“陛下。”然后他抬起头，柳叶一样的眼睛专心地看着我，如此谦和地开了口。</p>
+<p>我只恨自己还是太像男儿，竟不能随时挤出些泪水骗他来擦，除了把他扶起来，也想不出什么法子，再去碰碰他的手。直到从祭台上下来，我才终于鼓足勇气，装出君臣和睦的样子拉住他，“丞相，我，朕找回了旧时流散的乐班，今晚筵席，便叫他们奏《真人歌》，贺卿凯旋。只是仓促，如今他们方习了《吐谷浑》和《部落稽》两支。”</p>
+<p>不知是不是我急于献宝的样子太过滑稽，他忽然笑了起来，我仰头看他，冬天的太阳照亮了他的面孔，“如此，”他说，“便奏《吐谷浑》吧。我也有礼物要回赠陛下。”</p>
+<p> </p>
+<p> </p>
+<p>回到宫中，在月亮升起后，我令人奏响了自代都时起，我历代先祖听过的乐章。昔年洛阳处处伽蓝，永明寺有百国沙门三千之众，日落后钟声响彻八方，如今……如今至少我们还有横吹鼓角，还有高王的刀箭。</p>
+<p>“北狄三国，鲜卑、吐谷浑、部落稽，系出同源，乐出同源，礼不忘本……”我一边有口无心地说着，一边偷瞄着高王，他端正地坐着，专注地听着，唇边带笑，我便再高声，“……此皆马上乐，贺丞相武功。”</p>
+<p>他起身拜谢，我本以为他会前趋为我舞，我便可以站起来相合。但他只是恭谨地拜了，然后接住了我将落未落地话音。</p>
+<p>“戮力王事，敢不用命？臣愿为王前驱，南威梁王，北怀草原。今闻吐谷浑借道柔然，愿与我朝盟，臣意为陛下延聘可汗夸吕堂之妹，相结秦晋。”</p>
+<p> </p>
+<p>他继续说着，我只觉他的声音与鼓乐丝竹一齐远了，无论是河北人还是六镇的显贵，一齐击节，我元氏贵族，竟也是诺诺。表示赞同的呼喝像河阴的浪，涌上来，几乎打湿我的眼睫。这便是为什么有人讲，宁为高贵死，不为献帝生的原因？</p>
+<p>因为我是哭泣的可汗，我只顾低头流泪，不敢在黑毡上仰头看向西方青色的天空，于是天神便舍弃了我，把我交到那托举黑毡的人的手中。</p>
+<p> </p>
+<p>他不是我的父亲，他是我的主人。</p>
+<p> </p>
+<p>我扯出笑容，说着他希望我说的辞令，接受他准备的礼物。然后便又是祝贺的话，喜庆的舞，急弦促管催人饮下一杯又一杯的酒，宫人不知端上了些什么肉食，我视而不见，只是盯着高王，我几乎要用眼睛吃掉他了，他竟不觉。</p>
+<p> </p>
+<p>宫漏滴了又滴，丞相供养的军中勋贵渐渐露出醉中的丑态，敲着杯盏，说话夹着胡语，手舞足蹈，他们在晋阳也是如此吗？高王就是带着这样一群人拱卫着我的御座？那么我的洛阳的高门呢？灯下，坐者为冢，卧者为尸，这就是我的依仗吗？那些名字，权臣的名字、幼主的名字……我为什么要知道这些名字？是谁在教我？为什么教我？如何教我？</p>
+<p>我正出神，一阵喧哗后，高隆之忽然离席，对我行礼，他举着樽，竟向我敬酒，祝福我将迎娶吐谷浑的公主。</p>
+<p>羞耻啊！</p>
+<p>我多希望自己能寻手去摔他的杯子，骂他说：镇兵尔敢！</p>
+<p>我多希望自己还是个小孩，可以如旧时在精舍中，为点心和首饰的不如意而尖声叫着天啊天啊，顿着足，用憋红的脸去征服母亲，使她满足我的愿望。丹烛煌煌，我感觉我的耳朵发烫，拓拔家的血火一样燃烧，我急促地喘着，如果我手里有刀，如果我有一匹快马，我会忘却曾经在佛祖面前发下的一切誓愿，只狠狠劈过去，直到敌人热腾腾的血溅到我的脸上。我要让他们明白，我鲜卑车马客，驱驰若飞，得天下何须臣子为我约以婚姻！</p>
+<p> </p>
+<p>“高隆之！”高王的声音如凉水泼过来，忽然整个堂屋只有我们三个站着，玉箸停在银盘边上，一动不动，连影子都不动。我读不懂他那张俊美的脸上的表情，那是一张与我如此不同的脸，一张汉人的脸，一双温柔的柳叶一样的眼。大魏的丞相压住他最爱的四贵之一的头，直到他的腰深深深深地弯下来。</p>
+<p>我用河北人教我的礼仪，庄重地宽恕了他，也宽恕了我自己。</p>
+<p> </p>
+<p>乐又奏了起来，我借口酒醉，离了席，不带直閤，一个人坐在廊下，等高王来。燥热被我抛在身后，眼前只有孤寒的冬夜中的庭院，地上没有雪，天上没有星星，院中只一棵二三合抱的古柏和几盏灯。</p>
+<p>我想起幼时听的《大智度论》：世间转坏如风中灯。如险岸树。如漏器盛水不久空竭。如是一切众生。</p>
+<p>“陛下。”他的声音从我身后传来，我知道他不会弃我一人，正如他不会弃北方众生。我转过身，看他行礼，听他问我的侍从，问我的饮食，问我的冬衣，问一切生我身的父亲从未问过的事情，我想，那便如你所愿，我做回一个孩子。孩子就会蛮不讲理地大喊：“为什么要让我娶那个女人！我不娶，我不要做皇帝，你不能既让我做皇帝又让我听你的，要么我不做这个皇帝了，高王，我听你的话，我不做皇帝了好不好？”</p>
+<p> </p>
+<p>烛光摇曳，刹那间，我仿佛在他脸上看到了怜悯。不，那是我不能要的东西，恐惧抓住了我。他终于又一次主动拉起我的手，带我坐下来，递过一个手炉，“陛下，冬至风冷。”他说，“这件事没有您想的这般严重，只是为了寻求盟友，早日诛灭宇文逆贼的一个交易。那个公主，您若不喜欢便安置于后宫，臣尽可以为您找您喜欢的人。”</p>
+<p>他握紧了我的手，“臣不会让这等小事动摇您的帝位。”</p>
+<p>我多想此时有千灯同辉，烛我宵征，照空一切色相，然而这院子里只有几点乍明灭的庭燎，光影掠过高王的面孔，我眼所见，唯有善心而已。我眼所不能见的，我如何能明白？</p>
+<p>“若我不喜欢女人呢？”我说着，想起每月从我身下涌出的血，我本也不该喜欢女人。</p>
+<p>他赞许地点头，“陛下，便该如此，您只要时刻记着，自己是大魏的君主，是北人的汗，其他的事一切有臣。若您当真喜欢男人，无论是放在乐坊也好，放在身边做黄门也好，臣都可以替您办到。”</p>
+<p>“非如此不可？”</p>
+<p>他再一次举手，有茧的指腹擦过我的眼，“陛下长大了呢，是不是有喜欢的人了？不要急，陛下，您尽可以将心事托付给臣。”</p>
+<p> </p>
+<p>“那么贺六浑，听我说，我恋慕的正是你！侧侧力力……”我猛地以手掩面，把头埋进两膝之间，团身于阶下，“念君无极。”</p>
+<p> </p>
+<p>我不看的，皆不存在。我死死地闭住眼睛，等着他抽身而去，留我一个，像我小时，在寺里，临别时，为多挽留母亲一阵，总是伏地嚎啕，我以为母亲会怜悯我，我以为我的泪水能像换来首饰一样换来母亲的温存。可是每当我睁开眼，母亲都不在了，只有我和释尊的铜像相对相望，我总是被弃于佛前。总是。</p>
+<p>我感到高王试图令我抬起头，不，不，我别着劲，死命地，颤抖着，我的牙齿又在打颤，我听见自己的悲鸣流出齿篱，冻僵在夜风里。有人在我的身上披了带着体温的大氅，是高王吗？我不敢抬头，不，不，如果我开眼见到的是无边的夜色，不，不，我不能抬头，我不能让他讥笑我，讥笑大魏的天子。</p>
+<p>直到我的腿蹲得酸麻，再撑不住，歪在地上，我终于抬头。在我本以为该空无一人的廊下，高王正坐着，微微扬起头，柳叶一样的眼睛里乘着月亮。</p>
+<p>“丞相……”</p>
+<p>他看向我，如平常一样温和地笑了，“陛下，臣扶您回寝宫吧，该休息了。”</p>
+<p>我被半抱着扶起来，双腿针扎一样痛，我咬着牙，走了一步，却歪倒。他拉着我站定在原地，我们面对面觑着，反而是他，忍不住先笑了起来，“歇歇脚吧。”说着，他又笑。</p>
+<p> </p>
+<p>我只恨不得自己真醉到人事全忘才好，可我又舍不得忘记此时他温暖干燥的双手。</p>
+<p>笑骂纵歌的声响从远处的宫宇传来，微渺，断续，甚至不及风声响亮，烛火照得那一片天都泛红，而我们只有月亮和几盏灯。可惜我的腿这样快便好了，我心中向满天神佛祷告，不要叫他放开我，或许我此生此世的善功于此便用尽了，他果然没有放手，携着我慢慢走回了寝宫。</p>
+<p>宫女子和宦臣慌忙地拜倒，他只不管，仿佛我比礼制更重要。我想这和权臣僭越是完全不同的事情。我更了衣，吃了滚烫的奶子，做出安寝的模样，然后在他躬身告退时，跃起扑倒他，床幔飘起又垂落，博山炉里的烟散开又归于蜿蜒一束，他的表情震惊又平静，我不是用匕首，而是用我隐隐胀痛的胸抵住他的心房，“丞相！”</p>
+<p>乳母的声音惊慌地传进帷幔，“陛下？”</p>
+<p>我死死地盯住高王，他将我打散的，落在他脸上的头发捋到我耳后，然后对乳母说：“陛下醉了，要醒酒汤。”</p>
+<p>“我没有。”</p>
+<p>他还是笑。</p>
+<p>“朕命令你，不许笑！”我这样说着，自己却哭起来，我哭得很丑，连鼻水都流下来，一直滴到高王的衣襟上，“抱歉，”我抽噎地说，“留下来，我就赔你衣服，我……我没醉，这些话都是认真的，丞相，朕从第一次见到你，就喜欢你，喜欢得不得了。朕听说尔朱荣这个逆贼第一次见你，没有礼遇你，所以他是贼，朕是天子，无论是河北人还是我们鲜卑人都说，天子的智慧洞明一切，所以朕从第一眼见你就喜欢你。”</p>
+<p>他平静地听完，没有嫌恶、恼怒、羞赧、讶异、尴尬……他只是平静地听完了，枕着我的榻，仰视着我，然后说：“陛下厚爱，臣无以报万一，唯有勉力，取故地上版图，以安内外，以安陛下。”</p>
+<p>“我在说我的心！丞相，你不能强令朕娶妇，这……这太残忍了。”</p>
+<p>“但臣的心迹陛下又有哪里不清楚呢？这就是最好的安排。”</p>
+<p>“这不是！”</p>
+<p>“陛下……”他低低地叹了口气，支起身，张开手臂，终于回抱住我，使我的头靠在他的肩窝，仿佛我们真的很亲密，“臣也有做不到的，做不好的事情，在洛阳，如果没有陛下的信靠，臣如何自处？今日，陛下若拒婚，群臣会如何说臣，吐谷浑会如何想我朝，这都不是臣可制的。”</p>
+<p>他讲朝中的政局，讲天下的大势，从我的角度，正好能看到铜镜中我们的侧影，镜中的灯火照亮了寝殿，也照亮了高王的身形。我目不转睛地看着他挺直的背和削瘦的肩，还有在他怀抱中的可汗，直到眼中满是空花。</p>
+<p>他最终也没有转向铜镜，没有用他那双柳叶一样的眼睛看向镜中的我。我不再能支持，烛暗风过，等不及太阳从东方升起，黑暗抓住了我。</p>
+<p> </p>
+<p>然后，释尊张开了眼睛。</p>
+<p>我幼时寄居的佛寺，供奉的是献文朝铸造的佛像，那时的造像与今日不似，尽是些杏眼高鼻的样子。当时有人讲，说我父亲佛面，大约也是因为这个，才把我出生便舍给了寺里。我做功课时便总爱偷眼看释尊的像，心里也觉得亲切，想着大约父亲便是如此，有含笑的唇和洞明诸色的杏眼。但父亲从来不看我，更不对我笑。</p>
+<p>后来尔朱家谋逆，洛阳大乱，有过去的香客疯了一样冲进寺里，推倒了佛像，嘴里骂着，说何以不救危亡。佛头跌在地上，砍碎了，焦黑的烟尘飘进来，好像过去的香雾一般笼罩住佛像。我那时躲在人群后面，正暗暗不安又暗暗快意，忽然觉得那只剩一只杏眼的半扇佛面正看着我，仿佛看穿了我的一切想头。</p>
+<p>我于是跪下祝祷，天花就坠落，我抬起头，隔着像香雾一样渺茫的烟尘，佛像竟变得如同近来流行的样式，有柳叶一样的眼。有高王那样的柳叶一样的眼。</p>
+<p>我吓得盍上双目，再睁开时，天光已经放亮，榻上只有我一人，宫人的裙裾发出窸窣的声响，蜡烛都已燃烬了。</p>
+<p>几日后，高澄来和我说，他父亲要回晋阳去了，我慌慌忙地请他帮忙，延请丞相入宫。或许因为我说得支支吾吾，高澄居然讲，叫我别被奸人骗了去。我赌咒发誓说没有，又问高澄，难道是你父亲与你讲了什么？</p>
+<p>高澄那张专骗女人的脸上陡然显出不乐意的神色，“父亲只觉得你又老实，又辛苦，我呢，他竟还嫌我做事不够多！”</p>
+<p>转天，黄门果然通传说丞相进宫来辞行。</p>
+<p>我们沉默着，直到沉默如巨石压倒我，“丞相，那日是朕醉了。”</p>
+<p>高王等着我说下去。</p>
+<p>“你……你是否以为，朕失仪如此，当不起御座。”</p>
+<p> </p>
+<p>“何至如此。”高王极快地接住了我的话，快到像是松了口什么气似的，接着，他忽然告了罪，请我屏退了左右，然后侃侃而谈起来。</p>
+<p>他说那天的我，使他想起他的王妃。那时他还是在城墙执役的兵卒，而王妃已是诸豪族争娶的有贤名的女子了。但王妃偏相中了他，来与他表明心意，又暗中资他钱帛做聘。王妃的父母是当地广有家资的贵人，如同天下所有的父母一样，希望女儿出嫁后和出嫁前一样，过着没有忧愁的生活。但王妃是如此执拗的女子，她拒绝收回自己的金银，如同拒绝收回自己的爱慕。如此，王妃便嫁了过来，带着骏马和牛羊。</p>
+<p>他说，正是因为有了马，他才能做上队主，一点一点，招募越来越多的忠心之臣，效力于朝廷。</p>
+<p>他最后似乎说，他很感谢王妃的爱。也很感谢我的。他希望王妃的生活从此再无忧愁，他也会如此祝福我。</p>
+<p>高王走后，使臣又络绎在晋阳和都城之间，黑夜一日短过一日，我的婚事也渐渐就近了。</p>
+
+    <hr width="100%" id="EOF">
+    </div>
+</div>
+
+
+<nav class="post-pagination">
+
+
+    <a class="newer-posts" href="https://yuineko.icu/posts/ssl/">
+    下回<br>Hugo|给博客安装SSL安全证书
+    </a>
+
+    
+
+    <a class="older-posts" href="https://yuineko.icu/posts/umineko/">
+    上回<br>游戏评论|生为死之游戏
+    </a>
+
+</nav>
+<div class="post-comment-wrapper">
+
+<div class="comments">
+    <vue-disqus shortname="yuineko"></vue-disqus>
+</div>
+<noscript><noscript>请开启 JavaScript 以便使用评论服务。</noscript></noscript>
+<a href="https://disqus.com/" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+</main>
+</div><footer><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/loikein/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net" rel="nofollow noopener noreferrer">Rise</a> &amp; <a href="https://loikein.one" rel="nofollow noopener noreferrer me">loikein</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	This is a customized copyright.
+	
+</div> <script>
+let app;
+
+app = new Vue({
+    el: '#app',
+    data: {
+        scrollY: 0,
+        navOpacity: 0,
+        isDrawerOpen: false,
+        mounted: false,
+        isDarkMode: false
+    },
+    methods: {
+            sgn(t, x) {
+                let k = 1. / (1. - 2 * t);
+                if (x <= t) return 0;
+                else if (x >= 1 - t) return 1;
+                else {
+                    return k * (x - t);
+                }
+            },
+            handleScroll() {
+                this.scrollY = window.scrollY;
+                this.navOpacity = this.sgn(.0, Math.min(1, Math.max(0, window.scrollY / (this.pageHeadHeight() - this.navBarHeight() * 0.8))));
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+
+                if (this.navOpacity >= 1) {
+                    navBackground.style.opacity = 1;
+                    navTitle.style.opacity = 1;
+                } else {
+                    navBackground.style.opacity = 0;
+                    navTitle.style.opacity = 0;
+                }
+            },
+            handleResize() {
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+                extraContainer.style.left = (streamContainer.offsetWidth - extraContainer.offsetWidth) + 'px';
+            },
+            navBarHeight() {
+                return this.$refs.navBar.offsetHeight;
+            },
+            pageHeadHeight() {
+                return this.$refs.pageHead.offsetHeight;
+            },
+            toggleDrawer() {
+                this.isDrawerOpen = !this.isDrawerOpen;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            closeDrawer() {
+                this.isDrawerOpen = false;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            toggleDarkMode() {
+                this.isDarkMode = !this.isDarkMode;
+                if (this.isDarkMode==true){
+                    document.cookie = "night=1;path=/";
+                    document.body.classList.add("night");
+                } else {
+                    document.cookie = "night=0;path=/";
+                    document.body.classList.remove("night");
+                }
+            },
+            debounce(func, wait, options) {
+                let lastArgs,
+                    lastThis,
+                    maxWait,
+                    result,
+                    timerId,
+                    lastCallTime
+
+                let lastInvokeTime = 0
+                let leading = false
+                let maxing = false
+                let trailing = true
+
+                
+                const useRAF = (!wait && wait !== 0 && typeof root.requestAnimationFrame === 'function')
+
+                if (typeof func !== 'function') {
+                    throw new TypeError('Expected a function')
+                }
+                function isObject(value) {
+                    const type = typeof value
+                    return value != null && (type === 'object' || type === 'function')
+                }
+
+                wait = +wait || 0
+                if (isObject(options)) {
+                    leading = !!options.leading
+                    maxing = 'maxWait' in options
+                    maxWait = maxing ? Math.max(+options.maxWait || 0, wait) : maxWait
+                    trailing = 'trailing' in options ? !!options.trailing : trailing
+                }
+
+                function invokeFunc(time) {
+                    const args = lastArgs
+                    const thisArg = lastThis
+
+                    lastArgs = lastThis = undefined
+                    lastInvokeTime = time
+                    result = func.apply(thisArg, args)
+                    return result
+                }
+
+                function startTimer(pendingFunc, wait) {
+                    if (useRAF) {
+                    root.cancelAnimationFrame(timerId)
+                    return root.requestAnimationFrame(pendingFunc)
+                    }
+                    return setTimeout(pendingFunc, wait)
+                }
+
+                function cancelTimer(id) {
+                    if (useRAF) {
+                    return root.cancelAnimationFrame(id)
+                    }
+                    clearTimeout(id)
+                }
+
+                function leadingEdge(time) {
+                    
+                    lastInvokeTime = time
+                    
+                    timerId = startTimer(timerExpired, wait)
+                    
+                    return leading ? invokeFunc(time) : result
+                }
+
+                function remainingWait(time) {
+                    const timeSinceLastCall = time - lastCallTime
+                    const timeSinceLastInvoke = time - lastInvokeTime
+                    const timeWaiting = wait - timeSinceLastCall
+
+                    return maxing
+                    ? Math.min(timeWaiting, maxWait - timeSinceLastInvoke)
+                    : timeWaiting
+                }
+
+                function shouldInvoke(time) {
+                    const timeSinceLastCall = time - lastCallTime
+                    const timeSinceLastInvoke = time - lastInvokeTime
+
+                    
+                    
+                    
+                    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+                    (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait))
+                }
+
+                function timerExpired() {
+                    const time = Date.now()
+                    if (shouldInvoke(time)) {
+                    return trailingEdge(time)
+                    }
+                    
+                    timerId = startTimer(timerExpired, remainingWait(time))
+                }
+
+                function trailingEdge(time) {
+                    timerId = undefined
+
+                    
+                    
+                    if (trailing && lastArgs) {
+                    return invokeFunc(time)
+                    }
+                    lastArgs = lastThis = undefined
+                    return result
+                }
+
+                function cancel() {
+                    if (timerId !== undefined) {
+                    cancelTimer(timerId)
+                    }
+                    lastInvokeTime = 0
+                    lastArgs = lastCallTime = lastThis = timerId = undefined
+                }
+
+                function flush() {
+                    return timerId === undefined ? result : trailingEdge(Date.now())
+                }
+
+                function pending() {
+                    return timerId !== undefined
+                }
+
+                function debounced(...args) {
+                    const time = Date.now()
+                    const isInvoking = shouldInvoke(time)
+
+                    lastArgs = args
+                    lastThis = this
+                    lastCallTime = time
+
+                    if (isInvoking) {
+                    if (timerId === undefined) {
+                        return leadingEdge(lastCallTime)
+                    }
+                    if (maxing) {
+                        
+                        timerId = startTimer(timerExpired, wait)
+                        return invokeFunc(lastCallTime)
+                    }
+                    }
+                    if (timerId === undefined) {
+                    timerId = startTimer(timerExpired, wait)
+                    }
+                    return result
+                }
+                debounced.cancel = cancel
+                debounced.flush = flush
+                debounced.pending = pending
+                return debounced
+                }
+
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        window._nonDesktop = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+        
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        if (night==""){
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+            }
+        }else{
+            
+            if (night=="1") {
+                this.toggleDarkMode();
+            }
+        }
+    },
+    mounted() {
+        this.handleScroll();
+        this.handleResize();
+        this.mounted = true;
+
+        
+        
+        
+
+        document.querySelectorAll("table").forEach(function(elem){
+            elem.classList.add("table-striped");
+            elem.classList.add("table");
+            elem.classList.add("table-responsive");
+            elem.classList.add("table-hover");
+        })
+
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
+        
+        
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+});
+
+
+
+</script>
+</footer>
+</body>
+</html>

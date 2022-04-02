@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 直笔东观</title>
+    <link>https://yuineko.icu/categories/</link>
+    <description>Recent content in Categories on 直笔东观</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This is a customized copyright.</copyright>
+    <lastBuildDate>Fri, 14 Jan 2022 14:26:00 +0800</lastBuildDate><atom:link href="https://yuineko.icu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>敕勒川</title>
+      <link>https://yuineko.icu/categories/%E6%95%95%E5%8B%92%E5%B7%9D/</link>
+      <pubDate>Fri, 14 Jan 2022 14:26:00 +0800</pubDate>
+      
+      <guid>https://yuineko.icu/categories/%E6%95%95%E5%8B%92%E5%B7%9D/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>凤求凰</title>
+      <link>https://yuineko.icu/categories/%E5%87%A4%E6%B1%82%E5%87%B0/</link>
+      <pubDate>Thu, 02 Dec 2021 12:43:17 +0800</pubDate>
+      
+      <guid>https://yuineko.icu/categories/%E5%87%A4%E6%B1%82%E5%87%B0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
