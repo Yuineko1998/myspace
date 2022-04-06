@@ -2,7 +2,7 @@ baseURL = "https://yuineko.icu/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "直笔东观"
-copyright = "This is a customized copyright."
+copyright = "永忆江湖归白发，欲回天地入扁舟。"
 theme = "diary"
 # googleAnalytics = "UA-123-45"
 
