@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en-us" x-ms-format-detection="none"><head>
+<title>神女 - 直笔东观</title>
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<meta name="format-detection" content="email=no">
+<meta name="description" content="嫦娥应悔偷灵药">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="x-dns-prefetch-control" content="off">
+
+
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="神女" />
+<meta property="og:description" content="嫦娥应悔偷灵药" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yuineko.icu/posts/kami/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-04T17:36:34+08:00" />
+<meta property="article:modified_time" content="2022-04-04T17:36:34+08:00" /><meta property="og:site_name" content="直笔东观" />
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="神女"/>
+<meta name="twitter:description" content="嫦娥应悔偷灵药"/>
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css" />
+<script src="/vendor/js/vue.min.js" ></script>
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://yuineko.icu/scss/journal.min.5915342dd5714c3691652d387f9cba784b91e9d996735453fb26ab49e07b0fca.css" integrity="sha256-WRU0LdVxTDaRZS04f5y6eEuR6dmWc1RT&#43;yarSeB7D8o=" media="screen" />
+
+
+
+<link rel="stylesheet" href="https://yuineko.icu/scss/dark-mode.min.40e7382c677f4cff6c5f4d5ef90bb58176fa71bcd8d3d37f48f037ffc9ab9e6d.css" integrity="sha256-QOc4LGd/TP9sX01e&#43;Qu1gXb6cbzY09N/SPA3/8mrnm0=" media="screen" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap" />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Noto+Serif+SC|Material+Icons&display=swap" />
+</noscript>
+
+
+
+
+  
+    <script src="/js/toc.js"></script>
+  
+
+
+
+
+  
+
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue-disqus@3/dist/vue-disqus.js"></script>
+  
+
+  
+
+  
+</head>
+<body>
+
+<div id="app"><div ref="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://yuineko.icu/">
+    
+        <div class="nav-title">
+            直笔东观
+        </div>
+        
+        <div class="nav-subtitle">
+            怀抱理想沉下去
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                关于我/About
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                合集/Categories
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                归档/Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/index.xml">
+                订阅/RSS
+            </a>
+            
+        
+    </div>
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/loikein/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net" rel="nofollow noopener noreferrer">Rise</a> &amp; <a href="https://loikein.one" rel="nofollow noopener noreferrer me">loikein</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	永忆江湖归白发，欲回天地入扁舟。
+	
+
+    </div>
+    
+</div>
+<div ref="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility">
+
+
+</div>
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a class="pagination-action" v-on:click="toggleDarkMode">
+            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" ref="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    关于我/About
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    合集/Categories
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    归档/Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/index.xml">
+                    订阅/RSS
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="https://yuineko.icu/">
+            直笔东观
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
+            <i class="material-icons" v-if="isDarkMode">
+                brightness_4
+            </i>
+            <i class="material-icons" v-else="isDarkMode">
+                brightness_7
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://yuineko.icu/">
+        <div class="single-column-header-title">直笔东观</div>
+        
+        <div class="single-column-header-subtitle">怀抱理想沉下去</div>
+        
+
+    </a>
+</div>
+
+
+<main id="content">
+<div ref="streamContainer" class="stream-container">
+<div class="post-list-container post-list-container-shadow">
+<div class="post">
+
+
+
+
+<div class="post-head-wrapper-text-only"
+    
+>
+    <div class="post-title">
+        <h1 class="post-title-main">神女</h1><div class="post-subtitle">嫦娥应悔偷灵药</div><div class="post-meta"><div class="post-time">发布时间：<time itemprop="datePublished">2022-04-04 17:36</time></div>&emsp;
+            <div class="post-cats">
+            <i class="material-icons" style="">folder</i>&nbsp;<a href="/categories/%E6%95%95%E5%8B%92%E5%B7%9D">敕勒川</a>&nbsp;</div>&emsp;
+            <div class="post-tags">
+            <i class="material-icons" style="">label</i>&nbsp;<a href="/tags/%E9%AB%98%E6%B4%8B">高洋</a>&nbsp;<a href="/tags/%E5%8C%97%E9%BD%90">北齐</a>&nbsp;<a href="/tags/%E5%8E%86%E5%8F%B2%E5%90%8C%E4%BA%BA">历史同人</a>&nbsp;</div><i class="material-icons" style="">schedule</i>
+                
+
+                
+                
+
+                
+                15 min
+                
+                38 s.</div>
+        
+    </div>
+    
+</div>
+
+
+<div class="post-body-wrapper">
+    
+    <div class="post-body" v-pre>
+    
+    
+
+    <p> </p>
+<p>某天晚上，皇帝在自己宫殿中小憩，梦见一位朱唇皓齿、云鬟嵯峨的贵族少女，仅着不能蔽体的小衣，款款走入自己的宫殿，皇帝惊愕非常，按剑呵问对方的来历。
+那贵女翩然一礼，举止端庄，言辞古雅，自称生前是汉朝时候楚夷王的王女，如今则在蓬莱仙山侍奉王母。</p>
+<p>皇帝问，既是天上的神女，为何要来找我呢？</p>
+<p>王女道，自己前来索要衣物。</p>
+<p> </p>
+<p>皇帝这才想起来，半个月前霍州修建城防，起了一座古墓，向天子进奉了墓中珠襦玉匣——听说起墓时，玉棺中女尸面貌如生，美丽异常。那必然是早已失传、如今仅得仿制的金缕玉衣了，据说可以保尸体千年不腐，令人死后羽化登仙。</p>
+<p>王女颔首微笑，她描摹起在仙山的生活，逍遥不尽，如今失了衣物，无颜在王母座前侍奉，希望天子能把衣服还给自己，让自己重返蓬莱。</p>
+<p>天子说：我答应你的请求，只是，你有什么可以报答我呢？</p>
+<p> </p>
+<p>王女说，您已经贵有关东的土地、无上的地位，却还想要更多。您取走本属于我的宝衣，却向我索求报答。我从您的眼里看到，凡人贪婪不知满足的心。</p>
+<p>那么，人世的君王，我赠送你三颗仙丸吧。</p>
+<p>第一是金乌的精血，是至纯至阳之物，能令你拥有看透人心的智慧和过人的精力。第二是月兔的骨髓，是至阴至毒之物，服用便会立刻死亡。第三是烛龙的眼睛，烛龙睁眼为昼，闭眼为夜，其眼，能令人在死后看到阳世。</p>
+<p>我与您约定，当这三颗仙丸都用完，我便重返此地，带您去往蓬莱仙山。</p>
+<p> </p>
+<p>于是烟雾袅袅，环佩铿锵，宫殿当中，烛火倏忽而灭。神女的身影消失在暗昧当中，皇帝醒来的时候，方觉黄粱一梦。他令人去库里取来进奉的宝物，金缕玉衣崭然如新，冷光泠泠，犹有幽香。</p>
+<p>玉匣上有精巧的机关，打开机关，犹有夹层，其中俨然：一颗朱丸、一颗白丸、和一颗同样大小的黄金丸。</p>
+<p>皇帝便留下匣中三丸，将金缕玉衣送回霍州，并下令重新收葬。</p>
+<p> </p>
+<p>此后，皇帝延请宫中所有的方士，集结众人的智慧，竟然都不能回答这三丸的究竟。</p>
+<p>只知道，从两颗药丸上削下的一点点粉末，便令厩中的驽马精神焕发，令后苑的巨象倒地而亡，而第三颗，看起来则只是纯金所制的金丸。</p>
+<p>皇帝将这三丸收在匣中，贴身收藏。两年后，皇帝征讨契丹，在边境展开大战，深入腹地，身先士卒，冒入险境。于心神动摇之际，想起来匣中的仙药。</p>
+<p>他服用朱丸，在那之后，凭借一股惊人的血气，带领军队数日不眠不休，食肉饮水，肉袒露膊而进，找到了敌军的王帐，突破困局，大获全胜。</p>
+<p>此后边事屡犯，皇帝进攻突厥、讨伐山胡，亲当矢石，临危自若，锋刃交接，则唯恐敌人不多，那雄豪胆魄，严厉果决，令军士崇畏振奋，而威名亦震怖于邻国。</p>
+<p> </p>
+<p>某次，因为一位副官在战场上临阵脱逃，导致小股部队的主将阵亡，皇帝将其处以死刑分尸，并且令小队里其他人食其血肉。这惨酷景象，实令人不敢直视，众人也觉察到他精神的异常。</p>
+<p>天子似有过人的精力和敏锐。精力旺盛，乃至有时彻夜不眠。手脚发热，胸中躁狂，乃至发作时冬日要裸衣赤足。洞察秋毫，过目不忘，乃至群臣战战兢兢，举动畏威。</p>
+<p>王朝的政局复杂而危险，他的智见令他看到不同群体之间难以调和的矛盾，看到所有的出路归于虚无，他的敏锐让他感受到群臣的欺瞒不忠、母亲对他的不满和失望。</p>
+<p>冲动让他犯下大错，激情则令他的悔和恨，愤怒和悲伤都被放大，日夜不能平静……他的意志又强迫他在乱麻当中，长久的苦思。</p>
+<p> </p>
+<p>皇帝悔恨自己误服异药，被恶毒的妖女戏弄，变成如今的状况。他通过酗酒逃避，一旦清醒，便无法忍受不可控制的绝望。</p>
+<p>连日昏醉，令他分不清幻觉与现实。有时，他看见妖女的影子纠缠着自己，带着微笑，在筵席上坐到自己怀中，伸出柔曼的手臂，吐气如兰，好像在嘲笑他自取的恶果。</p>
+<p>他抽出佩刀，割断对方的喉咙，头颅滚落到地上，变成洁净的花团，支解身体，涌出的都是鲜红的花瓣，他抱起花瓣里的琵琶，感觉到手指颤栗。清醒过来，却看见自己抱着嫔妾的尸体，满身血污。</p>
+<p>在座宾客，早已四散而逃。</p>
+<p> </p>
+<p>有时，他在睡梦里无法喘气，感觉女尸压在身上，嘴唇冰冷，双目乌黑，紧紧扼住他的咽喉，而清醒时，却又烟消云散。</p>
+<p>皇帝终于不堪忍受，便令人在寝殿中置一棺木，双眼通红，手握尖刀，坐在棺木前，沉默不语，听到环佩的鸣声，便暴起揪住妖物的头发，凭一股蛮力将对方拖曳到棺中。</p>
+<p>他坐在棺上，欲用长钉封死棺盖，听见棺中挣扎响动，更觉恐惧。</p>
+<p>然而清醒过来时，他松开手中的尖刀，才发现幻觉里的妖物，竟是入殿奏事的宰相。</p>
+<p> </p>
+<p>宰相狼狈不堪地在棺材里坐起来，发冠早不知落在何处，披头散发，公服被长钉划破，伤痕累累，皇帝失魂落魄坐在地上，与他四目相对，冷汗涔涔。——这幅景象，实在荒唐。</p>
+<p>皇帝讲起天保二年的的游仙怪梦，梦中的王女，玉匣当中三颗不思议的仙丸，讲起服药以后的异常，自己心中的悔恨绝望，无法挽回的一切。</p>
+<p>宰相跪坐着听完，从容冷静：是您臆想出了这样的故事。</p>
+<p>那玉匣不过是古老王陵里的陪葬物，应知汉朝皇帝迷信神仙黄老，爱问鬼神。倘若真有蓬莱仙人，一心长生的汉武帝于今安在？</p>
+<p>古时方士炼制的丹药，或许是有振奋精神的药物和强效的毒药，纵然高明，也并不算稀有。至于令死者看见阳世的眼球，更是荒诞不经。</p>
+<p>陛下难道忘记么，您已经让工匠鉴定过，那只是纯金所制的金丸。</p>
+<p>皇帝看着他，问道，令君，你说那怪梦是假的，可难道我这些年的经历，都不是真实的吗？</p>
+<p>叹息声在幽室中响起，宰相此刻不再顾忌君臣之礼，膝行两步，抱住皇帝因酗酒而消瘦的双肩。滚烫的眼泪，掉落在凌乱的衣襟上。</p>
+<p>这个世界上有太多的痛苦!当人的心承受不了这些痛苦的时候，便会为自己造出故事和幻觉来分担，因为你无法直面那真正令你痛苦的心。</p>
+<p>侯尼于，你从小就太聪明，太较劲，太固执。</p>
+<p> </p>
+<p>皇帝说：我累了。他又说：已经回不了头了。高德政和你，你们让我走了这条路!我应当和阿兄死在一起便好了。他又说：我恨你。我很害怕。对不起。他又说：你觉得太子怎么样？</p>
+<p> </p>
+<p>皇帝最终因为不堪忍受痛苦，在三十四岁时，吞下第二颗药丸自杀了。临终之时，托付宰相为幼主辅政。</p>
+<p>也许是毒药太过高明，御医甚至查不出死因。只好断定天子是久不进食，又过度饮酒，衰弱当中因醉而死。</p>
+<p>而他最后两年时醉时醒，疯癫古怪，荒谬残暴，周围人和大臣贵族们不堪其苦。国丧之上，竟只有宰相为他落泪。</p>
+<p>大行皇帝的随身遗物收捡时，太后看见乘着金丸的玉匣，不知为何心有戚戚、一时出神。</p>
+<p>这个儿子，出生在兵荒马乱、饥寒交迫之中，相貌平庸、性情孤僻，自己对他也颇多忽视。</p>
+<p>长子遇刺身亡，次子挑起重担。皇帝登极以后，却被汉人的花言巧语蒙蔽，因为政见不合，与她龃龉甚多，近年又昏癫狂暴，举止失常，令人头痛。</p>
+<p>只有此刻白发送黑发，终是自己肚子里落的骨肉，多少还是感觉到伤感。</p>
+<p>她留下儿子随身之物，串在自己平时用的佛珠上，作为儿子的念想。一边在心想，当令自己的第三子，代替年幼的太子即位。</p>
+<p>不想，宰相为保住太子的帝位，发动政变，不慎走漏风声，竟在宫中被殴杀。尸体眼眶破裂，一个眼球都被挖出。</p>
+<p>太后本爱惜这位女婿的才华和忠诚，意欲留待后用，如今见此凄苦死状，既惋惜又怜悯：杨郎何罪，忠而见杀。</p>
+<p>年老而尊贵的鲜卑妇人，为他默诵经文，取下佛珠上的金丸，装进窟窿一样的眼眶里。在尚未干涸的血污中，黄金眼球轻轻颤动。</p>
+<p>至此，三颗仙丸的故事就结束了。但为使诸位尽兴，我不妨再说一段。</p>
+<p> </p>
+<p>皇帝的弟弟杀害宰相，坐上皇位，又杀了侄子，却因为愧疚自责而精神恍惚，在宫殿里屡见鬼魂作祟，不得安宁。</p>
+<p>政变里惨死的大臣，脸色苍白，一只眼睛里里嵌着流血的黄金眼球，站在栋梁旁，满含恨意的注视着一切。被害死的侄儿，盘坐在王座上，呆滞痴怨的哭泣。兄长殿堂栋梁上呼喝奔走，又哭又笑，质问他为何背弃诺言。种种可怖的幻觉，不一而论。</p>
+<p>皇帝缠绵病榻，御医束手无策，只得广请全国的方士、法师，试过各种驱邪的方法，却无法医好皇帝的心病。</p>
+<p>直到一位应征的巫女前往皇宫，面见天子。只见她鸦鬓星眸，朱唇皓齿，垂眉敛目，焚香吹箫，乐声飞散在清冷的宫殿里，皇帝眼中，种种可怖的邪祟，全都消失。</p>
+<p>神女才端坐敛袖，从容讲述前缘，讲述起自己曾经与先帝所订的约定。如今，约定已经完成，自己只因王母之托，拜访山川神灵，回经尘世，想起这段旧事，重访故迹。</p>
+<p>皇帝问：如此说来，我的兄长已前往仙山，那是什么样的所在？他是否安好？</p>
+<p>或是仍在记恨我违背诺言、杀了他的儿子，不肯原谅我？</p>
+<p>那神女微微一笑，面目艳丽：</p>
+<p>人世的君王，蓬莱的楼阁比您的宫殿更宽广，黄金铺地、珠玉为土，在那里，所有死去的人都复活，就连失去的爱都能复原，犯过的错都被弥补。</p>
+<p>人语声慢慢低下去了，帐幔外的烛火被夜风吹灭熄灭，乐声消散，东方渐白。第二日，宫人们发现，年轻的天子已经驾崩于寝殿中——和往日整夜里噩梦缠身，惶怖痛苦的情状不同，皇帝死时，脸上竟带着奇异安宁的微笑。</p>
+
+    <hr width="100%" id="EOF">
+    </div>
+</div>
+
+
+<nav class="post-pagination">
+
+
+    <a class="newer-posts" href="https://yuineko.icu/posts/huashan/">
+    下回<br>空亡
+    </a>
+
+    
+
+    <a class="older-posts" href="https://yuineko.icu/posts/archi/">
+    上回<br>亚子
+    </a>
+
+</nav>
+<div class="post-comment-wrapper">
+
+<div class="comments">
+    <vue-disqus shortname="yuineko"></vue-disqus>
+</div>
+<noscript><noscript>请开启 JavaScript 以便使用评论服务。</noscript></noscript>
+<a href="https://disqus.com/" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+</main>
+</div><footer><div id="single-column-footer">
+Hugo Theme <a href="https://github.com/loikein/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net" rel="nofollow noopener noreferrer">Rise</a> &amp; <a href="https://loikein.one" rel="nofollow noopener noreferrer me">loikein</a>
+<br>
+移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	永忆江湖归白发，欲回天地入扁舟。
+	
+</div> <script>
+let app;
+
+app = new Vue({
+    el: '#app',
+    data: {
+        scrollY: 0,
+        navOpacity: 0,
+        isDrawerOpen: false,
+        mounted: false,
+        isDarkMode: false
+    },
+    methods: {
+            sgn(t, x) {
+                let k = 1. / (1. - 2 * t);
+                if (x <= t) return 0;
+                else if (x >= 1 - t) return 1;
+                else {
+                    return k * (x - t);
+                }
+            },
+            handleScroll() {
+                this.scrollY = window.scrollY;
+                this.navOpacity = this.sgn(.0, Math.min(1, Math.max(0, window.scrollY / (this.pageHeadHeight() - this.navBarHeight() * 0.8))));
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+
+                if (this.navOpacity >= 1) {
+                    navBackground.style.opacity = 1;
+                    navTitle.style.opacity = 1;
+                } else {
+                    navBackground.style.opacity = 0;
+                    navTitle.style.opacity = 0;
+                }
+            },
+            handleResize() {
+                const {navBar, navBackground, navTitle, extraContainer, streamContainer} = this.$refs;
+                extraContainer.style.left = (streamContainer.offsetWidth - extraContainer.offsetWidth) + 'px';
+            },
+            navBarHeight() {
+                return this.$refs.navBar.offsetHeight;
+            },
+            pageHeadHeight() {
+                return this.$refs.pageHead.offsetHeight;
+            },
+            toggleDrawer() {
+                this.isDrawerOpen = !this.isDrawerOpen;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            closeDrawer() {
+                this.isDrawerOpen = false;
+                document.getElementsByTagName('html')[0].style.overflow = this.isDrawerOpen ? 'hidden' : 'unset';
+            },
+            toggleDarkMode() {
+                this.isDarkMode = !this.isDarkMode;
+                if (this.isDarkMode==true){
+                    document.cookie = "night=1;path=/";
+                    document.body.classList.add("night");
+                } else {
+                    document.cookie = "night=0;path=/";
+                    document.body.classList.remove("night");
+                }
+            },
+            debounce(func, wait, options) {
+                let lastArgs,
+                    lastThis,
+                    maxWait,
+                    result,
+                    timerId,
+                    lastCallTime
+
+                let lastInvokeTime = 0
+                let leading = false
+                let maxing = false
+                let trailing = true
+
+                
+                const useRAF = (!wait && wait !== 0 && typeof root.requestAnimationFrame === 'function')
+
+                if (typeof func !== 'function') {
+                    throw new TypeError('Expected a function')
+                }
+                function isObject(value) {
+                    const type = typeof value
+                    return value != null && (type === 'object' || type === 'function')
+                }
+
+                wait = +wait || 0
+                if (isObject(options)) {
+                    leading = !!options.leading
+                    maxing = 'maxWait' in options
+                    maxWait = maxing ? Math.max(+options.maxWait || 0, wait) : maxWait
+                    trailing = 'trailing' in options ? !!options.trailing : trailing
+                }
+
+                function invokeFunc(time) {
+                    const args = lastArgs
+                    const thisArg = lastThis
+
+                    lastArgs = lastThis = undefined
+                    lastInvokeTime = time
+                    result = func.apply(thisArg, args)
+                    return result
+                }
+
+                function startTimer(pendingFunc, wait) {
+                    if (useRAF) {
+                    root.cancelAnimationFrame(timerId)
+                    return root.requestAnimationFrame(pendingFunc)
+                    }
+                    return setTimeout(pendingFunc, wait)
+                }
+
+                function cancelTimer(id) {
+                    if (useRAF) {
+                    return root.cancelAnimationFrame(id)
+                    }
+                    clearTimeout(id)
+                }
+
+                function leadingEdge(time) {
+                    
+                    lastInvokeTime = time
+                    
+                    timerId = startTimer(timerExpired, wait)
+                    
+                    return leading ? invokeFunc(time) : result
+                }
+
+                function remainingWait(time) {
+                    const timeSinceLastCall = time - lastCallTime
+                    const timeSinceLastInvoke = time - lastInvokeTime
+                    const timeWaiting = wait - timeSinceLastCall
+
+                    return maxing
+                    ? Math.min(timeWaiting, maxWait - timeSinceLastInvoke)
+                    : timeWaiting
+                }
+
+                function shouldInvoke(time) {
+                    const timeSinceLastCall = time - lastCallTime
+                    const timeSinceLastInvoke = time - lastInvokeTime
+
+                    
+                    
+                    
+                    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+                    (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait))
+                }
+
+                function timerExpired() {
+                    const time = Date.now()
+                    if (shouldInvoke(time)) {
+                    return trailingEdge(time)
+                    }
+                    
+                    timerId = startTimer(timerExpired, remainingWait(time))
+                }
+
+                function trailingEdge(time) {
+                    timerId = undefined
+
+                    
+                    
+                    if (trailing && lastArgs) {
+                    return invokeFunc(time)
+                    }
+                    lastArgs = lastThis = undefined
+                    return result
+                }
+
+                function cancel() {
+                    if (timerId !== undefined) {
+                    cancelTimer(timerId)
+                    }
+                    lastInvokeTime = 0
+                    lastArgs = lastCallTime = lastThis = timerId = undefined
+                }
+
+                function flush() {
+                    return timerId === undefined ? result : trailingEdge(Date.now())
+                }
+
+                function pending() {
+                    return timerId !== undefined
+                }
+
+                function debounced(...args) {
+                    const time = Date.now()
+                    const isInvoking = shouldInvoke(time)
+
+                    lastArgs = args
+                    lastThis = this
+                    lastCallTime = time
+
+                    if (isInvoking) {
+                    if (timerId === undefined) {
+                        return leadingEdge(lastCallTime)
+                    }
+                    if (maxing) {
+                        
+                        timerId = startTimer(timerExpired, wait)
+                        return invokeFunc(lastCallTime)
+                    }
+                    }
+                    if (timerId === undefined) {
+                    timerId = startTimer(timerExpired, wait)
+                    }
+                    return result
+                }
+                debounced.cancel = cancel
+                debounced.flush = flush
+                debounced.pending = pending
+                return debounced
+                }
+
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        window._nonDesktop = function () {
+            let check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+        
+        var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+        if (night==""){
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                
+            }
+        }else{
+            
+            if (night=="1") {
+                this.toggleDarkMode();
+            }
+        }
+    },
+    mounted() {
+        this.handleScroll();
+        this.handleResize();
+        this.mounted = true;
+
+        
+        
+        
+
+        document.querySelectorAll("table").forEach(function(elem){
+            elem.classList.add("table-striped");
+            elem.classList.add("table");
+            elem.classList.add("table-responsive");
+            elem.classList.add("table-hover");
+        })
+
+        
+        spy();
+        window.addEventListener('scroll', this.debounce(spy, 250, { 'maxWait': 250 }), false);
+        
+        
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('resize', this.handleResize);
+    }
+});
+
+
+
+</script>
+</footer>
+</body>
+</html>
