@@ -2,13 +2,9 @@
 title: "一些画画的杂思"
 date: 2022-04-16T12:28:57+08:00
 draft: false
-description:丹青不知老将至
-categories: 
-- 
+description: 丹青不知老将至
 tags:
 - 绘画笔记
--
--
 ---
 
 
