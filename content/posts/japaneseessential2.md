@@ -5,10 +5,6 @@ draft: false
 description: 拼搏两个月我要速成日语
 categories: 
 - 我学我学
-tags:
-- 日语
-- 
--
 ---
 
 ## 更多时态：て形的变体

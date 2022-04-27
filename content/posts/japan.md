@@ -5,10 +5,6 @@ draft: false
 description: 拼搏两个月我要速成日语
 categories: 
 - 我学我学
-tags:
--
--
--
 ---
 
 在[参考资料](http://www.guidetojapanese.org/grammar_guide.pdf)基础上大量缩减加上微微调整顺序。
