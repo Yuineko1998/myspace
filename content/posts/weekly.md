@@ -4,7 +4,7 @@ date: 2022-08-02T16:55:09+08:00
 draft: false
 description: 写周记从今日始
 categories: 
-- 
+- Weekly
 tags:
 -
 -
