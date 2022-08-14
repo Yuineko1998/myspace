@@ -50,5 +50,9 @@ MBTI属性：INFP
 
 [阿越|小狗咬掉网线](https://lion-eta.vercel.app/)
 
+[豆沙小猫|漫游者某某号](https://notion-next-six-henna.vercel.app/)
+
+[小选|小桃花树](https://notion-next-beige-delta.vercel.app/)
+
 ![img](https://i.loli.net/2021/11/13/SK9He1aExLlhbDv.jpg)
 
