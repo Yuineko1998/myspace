@@ -2,7 +2,7 @@
 title: "Weekly|暗涌"
 date: 2022-08-28T09:01:53+08:00
 draft: false
-description:因为太有所谓我才显得无谓
+description: 因为太有所谓我才显得无谓
 categories: 
 - Weekly
 tags:
