@@ -4,9 +4,7 @@
 
 ### **1.自我介绍/About Me**
 
-我是小双，也可以叫我小唯，或者猫猫，或者以上随意组合。
-
-常用的署名还有Yuineko、feather、featherbone。
+我是小双，也可以叫我小唯，或者猫猫，或者以上随意组合。常用的署名还有Yuineko、feather、featherbone。
 
 MBTI属性：INFP
 
@@ -14,11 +12,13 @@ MBTI属性：INFP
 
 感兴趣的时代：五代十国、中晚唐、两晋南北朝。
 
-这是第一个自己搭建的博客，很喜欢！希望你也喜欢！^-^
+这是第一个自己搭建的博客，很喜欢！希望你也喜欢！
 
 ###  **2.匿名提问箱/Ask Me**
 
 [直笔东观魏伯起](https://box.n3ko.co/_/feathers)
+
+[伤心小猫信箱](https://pushoong.com/zh-hans/ask/4313952120)
 
 ### **3.名字由来/Name**
 
@@ -28,11 +28,11 @@ MBTI属性：INFP
 
 以上只是我玩个梗，如对魏收和《魏书》感兴趣请搜索周一良先生《魏收之史学》。
 
+因为把历史同人搬运到Notionnext，这个博客决心作为本人的自留地。
+
 ### **4.相关链接/Link**
 
-历史同人存档：[晋阳霸府存档室](https://mud-buffer-24e.notion.site/5f64788463ba4342a41d8a0540929851)
-
-近期写作计划：[写作计划](https://web.banlikanban.com/kanban/618bbf83b79aa10f848da16b/)
+历史同人存档：[邺城存档室](https://notion-next-omega-eight.vercel.app/)
 
 不怎么使用的一些lofter博客，可供网络stalk：
 
@@ -52,7 +52,9 @@ MBTI属性：INFP
 
 [豆沙小猫|漫游者某某号](https://notion-next-six-henna.vercel.app/)
 
-[小选|小桃花树](https://notion-next-beige-delta.vercel.app/)
+[小选|小桃花树](https://strawberryxuan.icu/)
+
+[萧晓|金镜空照堆泪处](xjxx.vedfolnir.top)
 
 ![img](https://i.loli.net/2021/11/13/SK9He1aExLlhbDv.jpg)
 
