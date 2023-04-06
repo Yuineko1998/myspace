@@ -1,4 +1,4 @@
-baseURL = "https://doubleneko.xyz/"
+baseURL = "https://www.doubleneko.xyz/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "直笔东观"
