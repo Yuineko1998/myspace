@@ -1,5 +1,5 @@
 ---
-title: "Weekly|"
+title: "Weekly|四月随笔"
 date: 2023-04-06T11:38:41+09:00
 draft: false
 description: 在一个无比困倦的下午
